@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ContactService } from '../service/contact.service';
+import { PhotoService } from '../service/photo.service';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +9,16 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(
+  ) {}
+
+  ngOnInit(){
+  
+
+  }
+
+ 
+
 
 }
+
